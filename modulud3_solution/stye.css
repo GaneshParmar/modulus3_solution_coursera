@@ -1,0 +1,25 @@
+nav{
+    border-bottom: 0.3px solid rgba(128, 128, 128, 0.466);
+}
+li> a{
+    font-size: 1.4em;
+}
+.com_name{
+    font-size: 2em;
+    margin-left: 2%;
+    padding: 0.4%;
+}
+.visible-xs{
+    visibility: hidden;
+}
+section{
+    background-color: rgba(128, 128, 128, 0.507);
+    padding: 10px;
+    height: max-content;
+}
+@media (max-width:900px){
+    .visible-xs{
+        visibility: visible;
+        display: block;
+    }
+}
